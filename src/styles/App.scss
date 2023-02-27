@@ -1,0 +1,38 @@
+@import "./normalize.scss";
+
+/** Rules based on challenge style-guide **/
+$lightCyan: hsl(217, 19%, 38%);
+$neonGreen: hsl(150, 100%, 66%);
+$grayishBlue: hsl(217, 19%, 38%);
+$darkGrayishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%);
+$quoteSize: 28px;
+$fontFamily: 'Manrope', sans-serif;
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $darkGrayishBlue;
+}
+
+.wrapper {
+  padding: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  max-width: 375px;
+}
+
+.text {
+  font-family: $fontFamily;
+  font-size: 1rem;
+}
+
+.advice {
+  font-size: $quoteSize;
+}
